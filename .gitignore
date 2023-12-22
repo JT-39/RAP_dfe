@@ -3,3 +3,4 @@ Initial-info/
 *.csv
 *.html
 Images/
+.vscode/
