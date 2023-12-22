@@ -1,0 +1,171 @@
+---
+title: "RAP"
+subtitle: "Reproducible Analytcal Pipelines"
+author: "Jake Tufts, December 2023"
+format: 
+  revealjs:
+    theme: 
+      - default
+      - matt-dray-nhsr23.scss
+    # css: custom-styles.css
+    embed-resources: true
+    center: true
+    hash-type: number
+    highlight-style: a11y
+    code-line-numbers: false
+---
+
+<center>
+
+What is "RAP"?
+
+🎤
+
+</center>
+
+::: notes
+-   RAP is the gold standard of analysis.
+-   I didn't know what RAP is for a long time and always had it on my list to find out more about. When I finally did I was so glad that I spent the time to do so. 
+-   Also figured it is a lot less scary than initally thought and a lot of us are doing RAP already.
+-   What is the simplest definition of RAP?
+-   Well, its creating a piece of analysis that is fully reproducible.
+-   i.e., With the same data and the same analysis, every time you run this you get the same results.
+-   No matter the software, version, operating system, location or time.
+-   But, this view of RAP is more tailored to academia and publication of results/studies (Gov publications).
+-   RAP is broader than this and can be interpreted differently (to be made more appropriate for the work we do in our unit).
+:::
+
+------------------------------------------------------------------------
+
+<center>
+
+Why a pipeline?
+
+<center>
+
+::: r-stack
+::: {.fragment .fade-in-then-out}
+![Clean Data Pipeline](Images/clean_data_pipeline.png){width="700" height="500"}
+:::
+
+::: fragment
+![Reallistic Data Pipeline](Images/messy_data_pipeline.png){width="700" height="500"}
+:::
+:::
+
+::: notes
+-   Nice metaphor for the process of a project.
+
+-   Especially for analysis where usually you cannot skip steps and instead must flow through the pipe.
+
+-   However, a more realistic version would look like this.
+
+-   Where analysis is complex.
+
+-   Different data sources.
+
+-   Various stakeholders.
+
+-   Multiple methods of analyses.
+
+-   Changing outputs and final products.
+
+-   Larger and more diverse teams. (Not just about computational part - also social.)
+
+-   Things can get messy.
+
+-   So how do we deal this...?
+:::
+
+------------------------------------------------------------------------
+
+<center>
+
+So... How do we deal with this? <br> <br>
+
+::: fragment
+Become a...
+
+![RAP God](Images/rap_god.jpg){width="600" height="300"}
+:::
+
+<center>
+
+------------------------------------------------------------------------
+
+<center>
+
+You're likely already implementing RAP
+
+(or a variation of it)
+
+</center>
+
+::: notes
+-   RAP is any effort to increase the robustness of your work.
+-   Simpy recording the decisions you make is RAP (e.g., writing basic documentation).
+:::
+
+------------------------------------------------------------------------
+
+<center>
+
+The Reproducibilty Iceberg
+
+<center>
+
+![](Images/reproducibility_iceberg.png){width="750" height="700" fig-alt="An expanding brain meme styled iceberg showing the development of RAP."}
+
+::: notes
+-   There are different levels of RAP.
+-   As you go deeper down the iceberg your work becomes more reproducible.
+-   Some define standards of RAP - Bronze, Silver and Gold.
+-   However, not all work needs to be at the deepest point of the iceberg.
+-   Dependent on the analysis, how it is intended to be used and the timescale, just reaching the iceberg layer beneath the water can be the perfect level of RAP for the project (and reach that so sought after Gold standard...).
+:::
+
+------------------------------------------------------------------------
+
+<center>
+
+#### Simple steps to achieve Reproducibility
+
+</center>
+
+<br> <br>
+
+::: fragment
+1.  Tidy files and folders 🧹
+:::
+
+::: fragment
+2.  Effective naming 👨‍👩‍👦‍👦
+:::
+
+::: fragment
+3.  Document like you `ctrl S` ✍️
+:::
+
+::: fragment
+4.  Version control 🛠️
+:::
+
+::: fragment
+5.  Software stability 🤸
+:::
+
+::: fragment
+6.  Share, publish/open code, results... 🌎
+:::
+
+------------------------------------------------------------------------
+
+#### References
+
+<br>
+
+<div class="smaller-left">
+Seibold. H., (10th Oct 2023). RAP webinar October 2023. Health Data Research UK. Available YouTubeat: https://www.youtube.com/watch?v=C27ubS0AioA. (Accessed: 20 December 2023)
+
+Rodrigues. B., (October 3, 2023). Building reproducible analytical pipelines with R. Available at: https://raps-with-r.dev/ (Accessed: 20 December 2023)
+</div>
