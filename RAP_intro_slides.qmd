@@ -158,6 +158,81 @@ The Reproducibilty Iceberg
 6.  Share, publish/open code, results... 🌎
 :::
 
+
+----------------
+
+#### Why should you RAP?
+
+<br>
+
+It **WILL** make your life easier.
+
+Your work will be of higher quality.
+
+Work should be more enjoyable and even fun!
+
+<br>
+
+![](Images/rap_battle_meme.jpg){width="650" height="450" fig-alt="An expanding brain meme styled iceberg showing the development of RAP."}
+
+When they find out you RAP
+
+::: notes
+- May mean slightly more work in the short term, but in the long term it will save a lot of time. 
+Both from not having to repeat work, to less errors and it being easier to pass on to other colleagues.
+- Higher quality work is always better. 
+Your work will be robust and easy to share, important when taking it to that next step (e.g., another project or passing over to other teams).
+If there are ever any audits of your work (which is more likely that you think) then this will put your mind at ease.
+- Enjoyable by the fact you can do new things and no longer be bogged down by the repetitive tasks. 
+Collaboration should increase, and working together is often overlooked in data analytics.
+- Fun can be had by trying out advanced coding, creating products that look and feel cool and are using state-of-the-art technology. (For example, creating your own package, automating workflows and building websites.)
+:::
+
+
+----------------
+
+#### What happens if you don't?
+
+----------------
+
+1. Messy files and folders
+
+![](Images/messy_files.webp)
+
+----------------
+
+2. Confusing names
+
+![](Images/ant_dec.webp)
+
+----------------
+
+3. Lost knowledge
+
+![](Images/empty_folder.png)
+
+----------------
+
+4. No papertrail, rollback or accountability
+
+![](Images/spiderman_point.webp)
+
+----------------
+
+5. Bugs and errors
+
+![](Images/code_error.png)
+
+----------------
+
+6. Duplicated work and low efficiency 
+
+![](Images/working_against_eachother.webp)
+
+----------------
+
+
+
 ------------------------------------------------------------------------
 
 #### References
@@ -169,3 +244,4 @@ Seibold. H., (10th Oct 2023). RAP webinar October 2023. Health Data Research UK.
 
 Rodrigues. B., (October 3, 2023). Building reproducible analytical pipelines with R. Available at: https://raps-with-r.dev/ (Accessed: 20 December 2023)
 </div>
+
