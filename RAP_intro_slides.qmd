@@ -2,12 +2,12 @@
 title: "RAP"
 subtitle: "Reproducible Analytcal Pipelines"
 author: "Jake Tufts, December 2023"
+css: custom-styles.css
 format: 
   revealjs:
     theme: 
       - default
       - matt-dray-nhsr23.scss
-    # css: custom-styles.css
     embed-resources: true
     center: true
     hash-type: number
@@ -25,7 +25,7 @@ What is "RAP"?
 
 ::: notes
 -   RAP is the gold standard of analysis.
--   I didn't know what RAP is for a long time and always had it on my list to find out more about. When I finally did I was so glad that I spent the time to do so. 
+-   I didn't know what RAP is for a long time and always had it on my list to find out more about. When I finally did I was so glad that I spent the time to do so.
 -   Also figured it is a lot less scary than initally thought and a lot of us are doing RAP already.
 -   What is the simplest definition of RAP?
 -   Well, its creating a piece of analysis that is fully reproducible.
@@ -114,7 +114,7 @@ The Reproducibilty Iceberg
 
 <center>
 
-![](Images/reproducibility_iceberg.png){width="750" height="700" fig-alt="An expanding brain meme styled iceberg showing the development of RAP."}
+![](Images/reproducibility_iceberg.png){width="750" height="650" fig-alt="An expanding brain meme styled iceberg showing the development of RAP."}
 
 ::: notes
 -   There are different levels of RAP.
@@ -126,13 +126,86 @@ The Reproducibilty Iceberg
 
 ------------------------------------------------------------------------
 
+::: fragment
+#### Why should you RAP?
+:::
+
+<br>
+<br>
+
+::: fragment
+#### What happens if you don't?
+:::
+
+------------------------------------------------------------------------
+
+1.  Messy files and folders
+
+![](Images/messy_files.jpg)
+
+------------------------------------------------------------------------
+
+2.  Confusing names
+
+![](Images/ant_dec.webp)
+
+------------------------------------------------------------------------
+
+3.  Lost knowledge
+
+![](Images/empty_folder.png)
+
+------------------------------------------------------------------------
+
+4.  No papertrail, rollback or accountability
+
+![](Images/spiderman_point.webp)
+
+------------------------------------------------------------------------
+
+5.  Bugs and errors
+
+![](Images/code_error.png)
+
+------------------------------------------------------------------------
+
+6.  Duplicated work and low efficiency
+
+![](Images/working_against_eachother.webp)
+
+
+------------------------------------------------------------------------
+
+#### Why should you RAP?
+
+![When they find out you RAP](Images/rap_battle_meme.jpg){width="450" height="250" fig-alt="An expanding brain meme styled iceberg showing the development of RAP."}
+
+<br>
+
+It will make your life <div class="rainbow-text"> **easier** </div>
+
+<br> Your work will be of <div class="rainbow-text"> **higher quality** </div>
+
+<br> Work should be more <div class="rainbow-text"> **enjoyable** </div> and even <div class="rainbow-text"> **fun**! </div>
+
+::: notes
+-   May mean slightly more work in the short term, but in the long term it will save a lot of time. Both from not having to repeat work, to less errors and it being easier to pass on to other colleagues.
+-   Higher quality work is always better. Your work will be robust and easy to share, important when taking it to that next step (e.g., another project or passing over to other teams). If there are ever any audits of your work (which is more likely that you think) then this will put your mind at ease.
+-   Enjoyable by the fact you can do new things and no longer be bogged down by the repetitive tasks. Collaboration should increase, and working together is often overlooked in data analytics.
+-   Fun can be had by trying out advanced coding, creating products that look and feel cool and are using state-of-the-art technology. (For example, creating your own package, automating workflows and building websites.)
+:::
+
+
+------------------------------------------------------------------------
+
 <center>
 
 #### Simple steps to achieve Reproducibility
 
 </center>
 
-<br> <br>
+<br>
+<br>
 
 ::: fragment
 1.  Tidy files and folders 🧹
@@ -158,80 +231,19 @@ The Reproducibilty Iceberg
 6.  Share, publish/open code, results... 🌎
 :::
 
+------------------------------------------------------------------------
 
-----------------
 
-#### Why should you RAP?
 
-<br>
-
-It **WILL** make your life easier.
-
-Your work will be of higher quality.
-
-Work should be more enjoyable and even fun!
+#### Where to start?
 
 <br>
 
-![](Images/rap_battle_meme.jpg){width="650" height="450" fig-alt="An expanding brain meme styled iceberg showing the development of RAP."}
+Implement the 6 steps 👟
 
-When they find out you RAP
+Checkout the [DfE's RAP strategy](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/departmental-rap-plans/dfe-rap-strategy-implementation-plan-2023/) 🎲
 
-::: notes
-- May mean slightly more work in the short term, but in the long term it will save a lot of time. 
-Both from not having to repeat work, to less errors and it being easier to pass on to other colleagues.
-- Higher quality work is always better. 
-Your work will be robust and easy to share, important when taking it to that next step (e.g., another project or passing over to other teams).
-If there are ever any audits of your work (which is more likely that you think) then this will put your mind at ease.
-- Enjoyable by the fact you can do new things and no longer be bogged down by the repetitive tasks. 
-Collaboration should increase, and working together is often overlooked in data analytics.
-- Fun can be had by trying out advanced coding, creating products that look and feel cool and are using state-of-the-art technology. (For example, creating your own package, automating workflows and building websites.)
-:::
-
-
-----------------
-
-#### What happens if you don't?
-
-----------------
-
-1. Messy files and folders
-
-![](Images/messy_files.webp)
-
-----------------
-
-2. Confusing names
-
-![](Images/ant_dec.webp)
-
-----------------
-
-3. Lost knowledge
-
-![](Images/empty_folder.png)
-
-----------------
-
-4. No papertrail, rollback or accountability
-
-![](Images/spiderman_point.webp)
-
-----------------
-
-5. Bugs and errors
-
-![](Images/code_error.png)
-
-----------------
-
-6. Duplicated work and low efficiency 
-
-![](Images/working_against_eachother.webp)
-
-----------------
-
-
+Ask me for help! 🙋
 
 ------------------------------------------------------------------------
 
@@ -239,9 +251,8 @@ Collaboration should increase, and working together is often overlooked in data 
 
 <br>
 
-<div class="smaller-left">
+::: smaller-left
 Seibold. H., (10th Oct 2023). RAP webinar October 2023. Health Data Research UK. Available YouTubeat: https://www.youtube.com/watch?v=C27ubS0AioA. (Accessed: 20 December 2023)
 
 Rodrigues. B., (October 3, 2023). Building reproducible analytical pipelines with R. Available at: https://raps-with-r.dev/ (Accessed: 20 December 2023)
-</div>
-
+:::

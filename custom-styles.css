@@ -1,9 +1,9 @@
+/* styles.css */
 
-.smaller-left {
-    font-size: 0.8em; /* Adjust this value to make the text smaller or larger */
-    text-align: left;
-  }
-  
-.center {
-    text-align: center;
-  }
+.rainbow-text {
+  background-image: linear-gradient(to right, violet, indigo, blue, green, orange, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
