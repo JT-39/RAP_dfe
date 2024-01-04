@@ -1,4 +1,4 @@
-# RAP DfE ![GitHub Workflow Status (with event)](https://github.com/JT-39/RAP_dfe/actions/workflows/publish.yml/badge.svg)
+# RAP DfE ![GitHub Workflow Status (with event)](https://github.com/JT-39/RAP_dfe/actions/workflows/publish.yml/badge.svg) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 This is a repository where I will store any RAP related work for the DfE that can be shared publicly.
 
