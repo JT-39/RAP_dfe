@@ -1,14 +1,11 @@
 ---
 title: "RAP"
 subtitle: "Reproducible Analytcal Pipelines"
-author: "Jake Tufts, December 2023"
+execute: 
+  eval: true
 css: custom-styles.css
 format: 
   revealjs:
-    theme: 
-      - default
-      - matt-dray-nhsr23.scss
-    embed-resources: true
     center: true
     hash-type: number
     highlight-style: a11y
@@ -49,7 +46,7 @@ Why a pipeline?
 :::
 
 ::: fragment
-![Reallistic Data Pipeline](Images/messy_data_pipeline.png){width="700" height="500"}
+![Realistic Data Pipeline](Images/messy_data_pipeline.png){width="700" height="500"}
 :::
 :::
 
@@ -249,6 +246,7 @@ Ask me for help! 🙋
 
 #### References
 
+lol
 <br>
 
 ::: smaller-left

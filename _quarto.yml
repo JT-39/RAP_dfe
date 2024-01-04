@@ -1,0 +1,20 @@
+project:
+  title: "intro-quarto"
+  render: 
+    - "RAP_intro_slides.qmd"
+author: "Jake Tufts"
+format:
+  revealjs:
+    theme: [default, matt-dray-nhsr23.scss]
+    logo: "Images/regions_group_logo.png"
+    code-link: true
+    css: custom-styles.css
+    self-contained: true
+    preview-links: true
+execute: 
+  echo: false
+  eval: false
+  freeze: auto
+embed-resources: true
+title-slide-attributes: 
+  data-background-color: "#43464B"

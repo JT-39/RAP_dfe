@@ -4,3 +4,6 @@ Initial-info/
 *.html
 Images/
 .vscode/
+.Rhistory
+/.quarto/
+.Rproj.user
