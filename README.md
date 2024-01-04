@@ -9,4 +9,4 @@ For anyone, at any stage, in their journey into RAP, this book is an absolute **
 
 Below is the link to the current published version of the slides:
 
-- [Introduction to Reproducible Analytical Pipelines]("https://jt-39.github.io/RAP_dfe/")
+- [Introduction to Reproducible Analytical Pipelines](https://jt-39.github.io/RAP_dfe/)
