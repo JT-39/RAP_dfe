@@ -2,7 +2,6 @@ Initial-info/
 *.docx
 *.csv
 *.html
-Images/
 .vscode/
 .Rhistory
 /.quarto/
